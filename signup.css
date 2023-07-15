@@ -1,0 +1,60 @@
+
+
+.container {
+    background-image: radial-gradient(white,rgb(195, 78, 78));
+    width : 100%;
+    height : 720px;
+    background-color: azure;
+    display: grid;
+    place-items: center;
+}
+.curve-cont {
+    background-image: linear-gradient(rgb(172, 71, 172), white);
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    height : 500px;
+    width : 50%;
+    border-radius: 45px;
+}
+.sign-up {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    position: relative;
+    top : -50px;
+}
+.email {
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input {
+    display: grid;
+    place-items: center;
+    height : 20px;
+    box-shadow: 2px 2px 2px;
+    width : 100%;
+}
+.label {
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button {
+    margin-left: 35%;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px;
+}
+.button:hover {
+    cursor: pointer;
+}

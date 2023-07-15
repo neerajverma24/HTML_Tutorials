@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Div</title>
+
+    <style>
+
+         /*BY USING FLEX-BOX*/
+        .container0 {
+            border : 1px solid;
+            color : blue;
+            background-image: linear-gradient(silver, white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+        /* BY USING POSITION */
+        .container {
+            background-color: red;
+            height : 30px;
+            border : 1px solid;
+            position: relative;
+        }
+        .centered {
+            height : 20px;
+            border: 1px solid;
+            background-color: #0909d0;
+            color : white;
+            position: absolute;
+            top : 50%;
+            left : 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* by using display : grid*/
+        .container1 {
+            border: 1px solid ;
+            background-color: red;
+            color : white;
+            height : 30px;
+            display: grid;
+            place-items: center;
+        }
+
+        /* By using Margin */
+        .container2 {
+            border : 1px solid;
+            background-color: darkolivegreen;
+            color : rebeccapurple
+            height : 30px;
+            display : grid;
+        }
+
+        .centered2 {
+            margin : auto;
+        } 
+    </style>
+</head>
+<body>
+    <h1>How to center a div using different CSS properties :</h1>
+    <p>1. Flex-box</p>
+    <p>2. Position & transform : translate(-50%, -50%)</p>
+    <p>3. Grid</p>
+    <p>4. margin:auto</p>
+
+    <p>1. By using Flex-box</p>
+    <pre>
+        container {
+            display : flex;
+            justify-content:center;
+            align-items: center;
+        }
+    </pre>
+    <div class="container0">
+        <div class="centered0">Centered Div</div>
+    </div>
+
+
+    <p>2. By using Position</p>
+    <pre>
+       position: absolute;
+        top : 50%;
+        left : 50%;
+        transform: translate(-50%, -50%);
+    </pre>
+    <div class="container">
+        <div class="centered">Centered Div</div>
+    </div>
+
+    <p>3. By Using the 
+        <pre>display : grid;</pre>
+        <pre>place-items : center;</pre>
+    </p>
+    <div class="container1">
+        <div class="centered1">Centered Div</div>
+    </div>
+
+    <p>4. By using </p>
+    <pre>
+        containter {
+            display : grid;
+        }
+
+        centered {
+            margin : auto;
+        } 
+    </pre>
+    <div class="container2">
+        <div class="centered2">Centered Div</div>
+    </div>
+
+</body>
+</html>

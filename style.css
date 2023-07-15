@@ -1,0 +1,19 @@
+body{
+    border:2px solid gray;
+    margin: 5px;
+    padding: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#pa{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px red;
+}
+#p1{
+    text-shadow: 3px 3px 3px violet;
+    font-size:30px;
+}

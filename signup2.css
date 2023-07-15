@@ -1,0 +1,6 @@
+.image-container{
+    background-image: url('./sunset.webp');
+    background-size: cover;
+    width: 100%;
+    max-height : 100%;
+}

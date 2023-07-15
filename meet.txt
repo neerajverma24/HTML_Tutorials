@@ -1,0 +1,4 @@
+vs code and github ->  https://code.visualstudio.com/docs/editor/github
+   various extensions -> https://www.jamesqquick.com/blog/vscode-git-extensions-2020
+
+https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html

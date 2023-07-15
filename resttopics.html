@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rest topics of html</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\monuv\OneDrive\Desktop\Netflix File\Icon.webp">
+</head>
+<body>
+  <!-- Tooltip-->
+  <h1 title = "I am a header">This is the Heading</h1>
+
+  <!-- abbr tag-->
+  <p><abbr title = "WORLD HEALTH ORGANIZATION">WHO</abbr></p><br>
+  <a href = "https://www.netflix.com/in/" target="_blank"><img src = "C:\Users\monuv\OneDrive\Desktop\Netflix File\Icon.webp" width = "40px" height = "20px"></a><br>
+
+  <a href = "https://www.netflix.com/in/" title = "Netflix site">Netflix</a><br>
+
+  <!--   Using document.location is compulsory    -->
+
+  <pre> Method used below
+    button onclick = "document.location"='netflix.com'
+  </pre>
+  <button onclick="document.location='https://www.netflix.com/in/'">NetFlix</button><br>
+
+  <p>Bookmark below</p>
+  <a href = "#c2">Jump to chapter 2 </a>
+  <h2>Chapter 2</h2>
+  <p id = "c2">This is Chapter 2</p>
+  
+  <pre><strong>BELOW :- Different media source using source media tag with minimum width of the screen</strong>
+  <b>if we decrease the size of the screen different image will show</b></pre>
+  <picture>
+    <source media = "(min-width : 600px)" srcset="https://images.freeimages.com/images/large-previews/677/big-apple-1056753.jpg"> 
+    <source media = "(min-width : 300px)" srcset="https://images.freeimages.com/images/large-previews/5ed/pollard-willow-1641565.jpg">
+    <img src = "https://images.freeimages.com/images/large-previews/3bd/hexagonal-crystal-1641844.jpg">
+    </picture>
+
+
+<!-- javascript in html -->
+
+<h1>
+  My first javascript
+</h1>
+<button type="button" onclick="document.getElementsById('demo').innerHTML = Date()">Display Date and Time</button>
+<p id='demo'></p>
+
+</body>
+
+</html>
